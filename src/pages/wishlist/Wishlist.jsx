@@ -4,7 +4,7 @@ import Products from '@/components/products/Products';
 
 const Wishlist = () => {
   const [ data, dispacth ] = useStateValue()
-  // console.log(data.wishlist);
+  console.log(data.wishlist);
   
   return (
     <div >
